@@ -1,0 +1,8 @@
+导出库文件
+pip freeze > requirements.txt
+
+下载包而不安装
+pip install -d pypi/ -r requirements.txt
+
+安装本地安装包
+pip install pypi/*
